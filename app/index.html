@@ -1,0 +1,760 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>filters</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <div class="">
+        <header>
+          <ul class="mobile-view-phones hidden-sm hidden-md hidden-lg">
+            <li class="dropdown dropdown-phones-mobile ">
+              <a href="#" class="dropdown-toggle phone-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="phone-city">Москва</span>
+                <span class="phone-number">7(495)789-82-20</span> <span class=""></span></a>
+              <ul class="dropdown-menu">
+                <li class="phone-item">
+                  <span class="phone-city">Санкт-петербург</span>
+                  <span class="phone-number">7(812)336-32-28</span>
+                </li>
+                <li class="phone-item">
+                  <span class="phone-city">Екатеринбург</span>
+                  <span class="phone-number">7(343)372-74-10</span>
+                </li>
+                <li class="phone-item">
+                  <span class="phone-city">Казахстан</span>
+                  <span class="phone-number">7(727)277-11-72</span>
+                </li>
+                <li class="phone-item">
+                  <span class="phone-city">Ростов-на-дону</span>
+                  <span class="phone-number">7(863)201-43-45</span>
+                </li>
+              </ul>
+            </li>
+            <li class="header-consult">
+              <span id="#phone-call" data-toggle="modal" data-target="#phone-call-modal" class="icon-round">
+                <i class="fa fa-phone"></i>
+              </span>
+              <span class="icon-round">
+                <i class="fa fa-search"></i>
+              </span>
+            </li>
+          </ul>
+          <ul class="phones-container hidden-xs ">
+            <li class="phone-item">
+              <span class="phone-city">Москва</span>
+              <span class="phone-number">7(495)789-82-20</span>
+            </li>
+            <li class="phone-item">
+              <span class="phone-city">Санкт-петербург</span>
+              <span class="phone-number">7(812)336-32-28</span>
+            </li>
+            <li class="phone-item">
+              <span class="phone-city">Екатеринбург</span>
+              <span class="phone-number">7(343)372-74-10</span>
+            </li>
+            <li class="phone-item">
+              <span class="phone-city">Казахстан</span>
+              <span class="phone-number">7(727)277-11-72</span>
+            </li>
+            <li class="phone-item">
+              <span class="phone-city">Ростов-на-дону</span>
+              <span class="phone-number">7(863)201-43-45</span>
+            </li>
+            <li class="header-consult">
+              <span id="#phone-call" data-toggle="modal" data-target="#phone-call-modal" class="icon-round">
+                <i class="fa fa-phone"></i>
+              </span>
+              <span class="icon-round">
+                <i class="fa fa-search"></i>
+              </span>
+            </li>
+          </ul>
+          <div class="sub-menu-container">
+            <div class="sub-menu-socials">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-vk"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sub-menu-nav">
+              <ul>
+                <li>
+                  <span class="sub-menu-nav-icon">
+                    <img src="images/sm-1.png" alt="">
+                  </span>
+                  <a href="#" class="sub-menu-link">Отложенные товары</a>
+                </li>
+                <li>
+                  <span class="sub-menu-nav-icon">
+                    <img src="images/sm-2.png" alt="">
+                  </span>
+                  <a href="#" class="sub-menu-link">Информация о заказе</a>
+                </li>
+                <li>
+                  <span class="sub-menu-nav-icon">
+                    <img src="images/sm-3.png" alt="">
+                  </span>
+                  <a href="#" class="sub-menu-link">Личный кабинет</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <nav class="navbar navbar-default custom-navbar">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                  <img src="images/logo.png" alt="Воздушные фильтры">
+                </a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">О компании <span class=""></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">История компании</a></li>
+                      <li><a href="#">Производство</a></li>
+                      <li><a href="#">Клиенты и партнеры</a></li>
+                      <li><a href="#">Вакансии</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Отраслевые решения<span class=""></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Фармацевтическое производство</a></li>
+                      <li><a href="#">Деревообработка</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Новости</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Услуги<span class=""></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Проектирование и монтаж</a></li>
+                      <li><a href="#">Технические консультации</a></li>
+                      <li><a href="#">Инженерные изыскания</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Информация<span class=""></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Техническая информация</a></li>
+                      <li><a href="#">Документы</a></li>
+                      <li><a href="#">Статьи</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контакты <span class=""></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Москва</a></li>
+                      <li><a href="#">Санкт-Петербург</a></li>
+                      <li><a href="#">Екатеринбург</a></li>
+                      <li><a href="#">Ростов-на-Дону</a></li>
+                      <li><a href="#">Алматы</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </header>
+      </div>
+    </div>
+    <div class="header-slider-container">
+      <div class="container">
+        <div class="header-slider-navs"></div>
+        <div class="owl-carousel header-slider">
+          <div class="header-slider-item">
+            <h2>Filters.ru</h2>
+            <p>
+              ГК    <span class="highlight">"Воздушные фильтры"</span>    - производство фильтров для воздуха, HEPA фильтры, оборудование для систем вентиляции, элементы чистых помещений, аттестация чистых зон
+            </p>
+            <a href="#">подробнее...</a>
+          </div>
+          <div class="header-slider-item">
+            <h2>Filters.ru</h2>
+            <p>
+              ГК    "Воздушные фильтры"    - производство фильтров для воздуха, HEPA фильтры, оборудование для систем вентиляции, элементы чистых помещений, аттестация чистых зон
+            </p>
+            <a href="#">подробнее...</a>
+          </div>
+          <div class="header-slider-item">
+            <h2>Filters.ru</h2>
+            <p>
+              ГК    "Воздушные фильтры"    - производство фильтров для воздуха, HEPA фильтры, оборудование для систем вентиляции, элементы чистых помещений, аттестация чистых зон
+            </p>
+            <a href="#">подробнее...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products-wrapper">
+      <div class="translate-top">
+        <div class="container">
+          <div class="product-container">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/filters.png" alt="Фильтры">
+                  </div>
+                  <span>Фильтры</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/system-a.png" alt="Системы аспирации">
+                  </div>
+                  <span>Системы аспирации</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/filter-a.png" alt="Блоки фильтрации">
+                  </div>
+                  <span>Блоки фильтрации</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/clear.png" alt="Элементы чистых помещений">
+                  </div>
+                  <span>Элементы чистых помещений</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/sys-b.png" alt="Системы увлажнения">
+                  </div>
+                  <span>Системы увлажнения</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/compl.png" alt="Комплектующие">
+                  </div>
+                  <span>Комплектующие</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="product-img-container">
+                    <img src="images/order.png" alt="Разработка фильтров под заказ">
+                  </div>
+                  <span>Разработка фильтров под заказ</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="popular-items-container">
+        <div class="header-section">
+          <h2 class="header-section-title">Популярные товары</h2>
+        </div>
+        <div class="popular-items-nav">
+
+        </div>
+        <div class="popular-items owl-carousel">
+          <div class="popular-item">
+            <a href="#">
+              <div class="popular-item-image">
+                <img src="images/p-1.png" alt="">
+              </div>
+              <div class="popular-item-content">
+                <span>
+                  Фильтр воздушный абсолютной очистки высокой производительности ФВА - НС
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="popular-item">
+            <a href="#">
+              <div class="popular-item-image">
+                <img src="images/p-2.png" alt="">
+              </div>
+              <div class="popular-item-content">
+                <span>
+                  Фильтр Воздушный Абсолютной Очистки с клеевым сепаратором (ФВА-II)
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="popular-item">
+            <a href="#">
+              <div class="popular-item-image">
+                <img src="images/p-3.png" alt="">
+              </div>
+              <div class="popular-item-content">
+                <span>
+                  ФВКом-W-GT – Компактный фильтр W-типа газотурбинный
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="popular-item">
+            <a href="#">
+              <div class="popular-item-image">
+                <img src="images/p-4.png" alt="">
+              </div>
+              <div class="popular-item-content">
+                <span>
+                  Фильтр Воздушный Абсолютной Очистки с клеевым сепаратором (ФВА-II)
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-section improvements-header">
+        <h2 class="header-section-title">Наши преимущества</h2>
+        <div class="bottom-line"></div>
+      </div>
+      </div>
+    <div class="our-improvements-container">
+      <div class="container">
+        <div class="our-improvements-items">
+          <div class="our-improvements-item">
+            <img src="images/i-1.png" alt="Самое крупное в РФ собственное производство">
+            <span class="our-improvements-content">
+              Самое крупное в РФ собственное производство
+            </span>
+          </div>
+          <div class="our-improvements-item">
+            <img src="images/i-1.png" alt="Самое крупное в РФ собственное производство">
+            <span class="our-improvements-content">
+              Самое крупное в РФ собственное производство
+            </span>
+          </div>
+          <div class="our-improvements-item">
+            <img src="images/i-1.png" alt="Самое крупное в РФ собственное производство">
+            <span class="our-improvements-content">
+              Самое крупное в РФ собственное производство
+            </span>
+          </div>
+          <div class="our-improvements-item">
+            <img src="images/i-1.png" alt="Самое крупное в РФ собственное производство">
+            <span class="our-improvements-content">
+              Самое крупное в РФ собственное производство
+            </span>
+          </div>
+          <div class="our-improvements-item">
+            <img src="images/i-1.png" alt="Самое крупное в РФ собственное производство">
+            <span class="our-improvements-content">
+              Самое крупное в РФ собственное производство
+            </span>
+          </div>
+          <div class="our-improvements-item">
+            <img src="images/i-1.png" alt="Самое крупное в РФ собственное производство">
+            <span class="our-improvements-content">
+              Самое крупное в РФ собственное производство
+            </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="features-container">
+        <div class="header-section">
+          <h2 class="header-section-title">Наши услуги</h2>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="features-items">
+          <div class="feature-item">
+            <div class="feature-image">
+              <img src="images/f-1.png" alt="">
+            </div>
+            <div class="feature-content">
+              <div class="title-link"><a href="#">Проектирование и монтаж</a></div>
+              <p>
+                Установка и обслуживание производится нашими штатными специалистами, имеющими многолетний опыт работы.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-image">
+              <img src="images/f-2.png" alt="">
+            </div>
+            <div class="feature-content">
+              <div class="title-link"><a href="#">Технические консультации</a></div>
+              <p>
+                Четкое следование интересам наших клиентов — отличительная черта работы нашей команды менеджеров по работе с клиентами.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-image">
+              <img src="images/f-3.png" alt="">
+            </div>
+            <div class="feature-content">
+              <div class="title-link"><a href="#">Инженерные изыскания</a></div>
+              <p>
+                Индивидуальные решения для каждого Заказчика.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-section">
+        <h2 class="header-section-title">Новости</h2>
+        <div class="bottom-line"></div>
+      </div>
+      </div>
+    <div class="news-container">
+      <div class="container">
+
+          <div class="news-items">
+            <div class="news-item">
+              <img src="images/n-1.png" alt="">
+              <span class="news-date">11 Сентября 2016г</span>
+              <h3 class="news-title">ГК Воздушные Фильтры приглашает на выставку POWER-GEN Russia 2016</h3>
+              <p>
+                POWER-GEN Russia - это центральное место встречи для представителей российской и международной электроэнергетических отраслей.
+              </p>
+            </div>
+            <div class="news-item">
+              <img src="images/n-1.png" alt="">
+              <span class="news-date">11 Сентября 2016г</span>
+              <h3 class="news-title">ГК Воздушные Фильтры приглашает на выставку POWER-GEN Russia 2016</h3>
+              <p>
+                POWER-GEN Russia - это центральное место встречи для представителей российской и международной электроэнергетических отраслей.
+              </p>
+            </div>
+            <div class="news-item">
+              <img src="images/n-1.png" alt="">
+              <span class="news-date">11 Сентября 2016г</span>
+              <h3 class="news-title">ГК Воздушные Фильтры приглашает на выставку POWER-GEN Russia 2016</h3>
+              <p>
+                POWER-GEN Russia - это центральное место встречи для представителей российской и международной электроэнергетических отраслей.
+              </p>
+            </div>
+            <div class="news-item">
+              <img src="images/n-1.png" alt="">
+              <span class="news-date">11 Сентября 2016г</span>
+              <h3 class="news-title">ГК Воздушные Фильтры приглашает на выставку POWER-GEN Russia 2016</h3>
+              <p>
+                POWER-GEN Russia - это центральное место встречи для представителей российской и международной электроэнергетических отраслей.
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="our-clients">
+        <div class="header-section">
+          <h2 class="header-section-title">Наши клиенты</h2>
+          <div class="bottom-line"></div>
+        </div>
+        <div class="our-clients-nav">
+        </div>
+        <div class="owl-carousel our-clients-slider">
+          <div class="client-item">
+            <img src="images/c-1.png" alt="">
+          </div>
+          <div class="client-item">
+            <img src="images/c-2.png" alt="">
+          </div>
+          <div class="client-item">
+            <img src="images/g-3.png" alt="">
+          </div>
+          <div class="client-item">
+            <img src="images/g-4.png" alt="">
+          </div>
+          <div class="client-item">
+            <img src="images/g-5.png" alt="">
+          </div>
+          <div class="client-item">
+            <img src="images/g-6.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="header-section">
+        <h2 class="header-section-title">Видеоматериалы</h2>
+        <div class="bottom-line"></div>
+      </div>
+      </div>
+    <div class="video-container">
+      <div class="container">
+        <div class="video-items">
+          <div class="target-video-container">
+            <h4 class="title-video">
+              <a href="#">Производство НЕРА-фильтров</a>
+            </h4>
+            <iframe width="100%" height="410px" src="https://www.youtube.com/embed/6lt2JfJdGSY" allowfullscreen></iframe>
+          </div>
+          <div class="sub-video">
+            <h4 class="title-video">
+              Другие материалы
+            </h4>
+            <div class="sub-video-item">
+              <a href="#">
+                <iframe width="180px" height="120" src="https://www.youtube.com/embed/6lt2JfJdGSY" allowfullscreen></iframe>
+
+                <div class="sub-video-item-content">
+                  <div class="sub-video-item-title">
+                    PC Bench
+                  </div>
+                  <p>
+                    PC Bench - cтолы для сварки и шлифования с вытяжкой (PC BENCH - Pulsatron Compact aspiration bench)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="sub-video-item">
+              <a href="#">
+                <iframe width="180px" height="120" src="https://www.youtube.com/embed/6lt2JfJdGSY" allowfullscreen></iframe>
+
+                <div class="sub-video-item-content">
+                  <div class="sub-video-item-title">
+                    PC Bench
+                  </div>
+                  <p>
+                    PC Bench - cтолы для сварки и шлифования с вытяжкой (PC BENCH - Pulsatron Compact aspiration bench)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="sub-video-item">
+              <a href="#">
+                <iframe width="180px" height="120" src="https://www.youtube.com/embed/6lt2JfJdGSY" allowfullscreen></iframe>
+
+                <div class="sub-video-item-content">
+                  <div class="sub-video-item-title">
+                    PC Bench
+                  </div>
+                  <p>
+                    PC Bench - cтолы для сварки и шлифования с вытяжкой (PC BENCH - Pulsatron Compact aspiration bench)
+                  </p>
+                </div>
+              </a>
+            </div>
+            <a href="#" class="see-more"><i class="fa fa-eye"></i> Смотреть все видео</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="our-partners-container">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aperiam asperiores beatae consectetur, doloremque doloribus eius fuga fugit harum iure iusto laudantium minus possimus quas rerum voluptates? A architecto, beatae delectus dolorum, ea illo iure laudantium libero nulla omnis, optio quas ratione tempora? Asperiores atque aut est iure, modi neque obcaecati quia quo quos repellendus, sed sunt unde. Aperiam, delectus facilis non odio odit possimus quae quod repellendus! Architecto, error explicabo nihil nobis non quaerat quasi quo? Blanditiis corporis impedit molestias nulla odio! A adipisci amet, at autem doloremque eius facere in ipsa, ipsam laborum magni nihil odit perferendis porro quaerat quod quos rem! Adipisci cum explicabo ipsum iusto maiores mollitia nihil porro provident quis, vitae voluptate voluptatum? Minus!
+        </p>
+        </div>
+      </div>
+    <div class="our-partners-title">
+      <span>Наши партнеры</span>
+    </div>
+      <div class="container">
+        <div class="our-partners-items-container">
+          <div class="our-partners-item">
+            <img src="images/op-1.png" alt="">
+            <img src="images/op-2.png" alt="">
+            <img src="images/op-3.png" alt="">
+            <img src="images/op-4.png" alt="">
+            <img src="images/op-5.png" alt="">
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+        <ul class="phones-container">
+          <li class="phone-item">
+            <span class="phone-city">Москва</span>
+            <span class="phone-number">7(495)789-82-20</span>
+            <span class="phone-email"><i class="fa fa-envelope"></i> office@gmail.com</span>
+          </li>
+          <li class="phone-item">
+            <span class="phone-city">Санкт-петербург</span>
+            <span class="phone-number">7(812)336-32-28</span>
+            <span class="phone-email"><i class="fa fa-envelope"></i> office@gmail.com</span>
+          </li>
+          <li class="phone-item">
+            <span class="phone-city">Екатеринбург</span>
+            <span class="phone-number">7(343)372-74-10</span>
+            <span class="phone-email"><i class="fa fa-envelope"></i> office@gmail.com</span>
+          </li>
+          <li class="phone-item">
+            <span class="phone-city">Казахстан</span>
+            <span class="phone-number">7(727)277-11-72</span>
+            <span class="phone-email"><i class="fa fa-envelope"></i> office@gmail.com</span>
+          </li>
+          <li class="phone-item">
+            <span class="phone-city">Ростов-на-дону</span>
+            <span class="phone-number">7(863)201-43-45</span>
+            <span class="phone-email"><i class="fa fa-envelope"></i> office@gmail.com</span>
+          </li>
+        </ul>
+        <div class="footer-navigation-container">
+          <div class="footer-logo">
+            <ul class="footer-socials">
+              <li>
+                <a href="#">
+                  <i class="fa fa-vk"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+            <img src="images/logo-footer.png" alt="">
+          </div>
+          <ul class="footer-nav-item">
+            <li><a href="#"><i class="fa fa-circle-o"></i> О компании</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Доставка</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Услуги</a></li>
+          </ul>
+          <ul class="footer-nav-item">
+            <li><a href="#"><i class="fa fa-circle-o"></i> Контакты</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Отраслевые решения</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Новости</a></li>
+          </ul>
+          <ul class="footer-nav-item">
+            <li><a href="#"><i class="fa fa-circle-o"></i> Информация</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> ЧАВО</a></li>
+          </ul>
+          <div class="xpride-logo">
+            <a href="#"><img src="images/logo-xpride.png" alt=""></a>
+          </div>
+        </div>
+        <div class="copy">
+          <small>Copyright © 2016</small>
+        </div>
+
+          <div class="modal fade" tabindex="-1" role="dialog" id="phone-call-modal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">Заказать звонок</h4>
+                </div>
+                <div class="modal-body">
+                  <form >
+                    <div class="form-group">
+                      <label for="recipient-name" class="control-label">Ваше ФИО*:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="number" class="control-label">Ваше телефон*:</label>
+                      <input type="number" id="number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="subb" class="control-label">Ваше телефон*:</label>
+                      <select id="subb" class="form-control">
+                        <option value="Moscow">Москва</option>
+                        <option value="SPB">Санкт-Петербург</option>
+                        <option value="EKB">Екатеринбург</option>
+                        <option value="RDN">Ростов-на-дону</option>
+                      </select>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Заказать звонок</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+        </div>
+      </footer>
+
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/owl.carousel/dist/owl.carousel.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
