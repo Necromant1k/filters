@@ -234,6 +234,31 @@
   }
 }
 @media only screen and (max-width:767px) {
+  .help-footer{
+    flex-direction: column;
+
+  }
+  .contact-page-description a{
+    font-size: 14px;
+  }
+  .recaptcha{
+    width: 100%;
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .help-body{
+    flex-direction: column;
+    .question-container{
+      width: 100%;
+      margin-left:0;
+    }
+    .data-help-container{
+      width: 100%;
+    }
+    .form-group{
+      width: 100%;
+    }
+  }
   .inline-header{
     flex-direction: column;
     .bottom-line{
@@ -621,6 +646,11 @@
   }
 }
 @media only screen and (min-width: 640px) and (max-width: 767px){
+  .contact-page-description a{
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+  }
   #vmap{
     height:260px;
   }
