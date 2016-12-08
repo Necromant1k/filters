@@ -140,5 +140,23 @@ $(document).on('click', '.checkbox-square-item', function (e) {
   }else{
     $(this).addClass('active');
   }
-
 });
+
+$('.checkbox-with-ico-item label').on('click', function () {
+  if($(this).hasClass('active')){
+    $(this).removeClass('active');
+  }else{
+    $(this).addClass('active');
+  }
+});
+$(".show-filter").on('click', function (e) {
+  e.preventDefault();
+  if($(this).hasClass('active')){
+    $(this).removeClass('active');
+    $(".hide-mobile").slideUp();
+  }else{
+    $(this).addClass('active');
+    $(".hide-mobile").slideDown();
+  }
+
+})

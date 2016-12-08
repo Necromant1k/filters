@@ -1270,6 +1270,7 @@ h2{
   justify-content:flex-start;
 }
 .checkbox-group-with-ico{
+  margin-bottom:25px;
   label{
     font-weight: 300;
     font-size: 16px;
@@ -1279,11 +1280,31 @@ h2{
     width: 0;
     display: none;
   }
+  svg{
+    width:25px;
+    height: 25px;
+    min-width: 25px;
+    margin-right:15px;
+  }
 }
 .by-link-search{
   color: $main-blue-color;
   font-size: 16px;
   margin-bottom:15px;
+}
+.checkbox-with-ico-item{
+  margin-bottom:10px;
+  label{
+    &.active{
+      color: $main-blue-color;
+      svg{
+        fill: $main-blue-color;
+      }
+    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .search-filter-group{
   padding-left: 0;
@@ -1339,6 +1360,16 @@ h2{
     }
   }
 }
+.show-filter{
+  font-size:24px;
+  text-align: right;
+  padding:0 15px;
+  margin-bottom: 15px;
+  display: none;
+  a{
+    color: $main-gray-color;
+  }
+}
 .shown-item-footer{
   a{
     margin-top: 20px;
@@ -1346,6 +1377,11 @@ h2{
     font-weight: 300;
   }
   .allow-region-icons{
+    svg{
+      width: 25px;
+      height: 25px;
+      fill: $main-blue-color;
+    }
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -1402,6 +1438,54 @@ h2{
   b{
     font-weight: 500;
     font-size: 24px;
+  }
+}
+.description-contact{
+  margin-bottom: 100px;
+  font-size: 16px;
+  color: $main-gray-color;
+}
+.header-contact-company{
+  margin-bottom:40px;
+  margin-top: 65px;
+  p{
+    font-size: 20px;
+    color: $main-blue-dark-color;
+  }
+  h1{
+    font-size: 26px;
+    color: $main-blue-color;
+    .company-name{
+      margin-top: 5px;
+      display: block;
+      font-size: 29px;
+      font-weight: 700;
+      color: $main-blue-dark-color;
+    }
+  }
+}
+#vmap{
+  width: 100%;
+  height:500px;
+}
+.contact-item{
+  margin-bottom: 20px;
+}
+.contact-filials{
+  margin-top: 80px;
+}
+.filial-header{
+  .filial-name{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    color: $main-blue-dark-color;
+  }
+
+  .filial-address{
+    display: block;
+    font-size: 14px;
+    color: $main-blue-dark-color;
   }
 }
 @import 'media';
