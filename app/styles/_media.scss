@@ -259,6 +259,12 @@
   }
 }
 @media only screen and (max-width:767px) {
+  .catalog-container{
+    flex-direction: column;
+    .catalog-item{
+      width: 100%;
+    }
+  }
   .get-filter-full-page{}
   .filter-type-selection{
     flex-direction: column;
