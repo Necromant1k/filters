@@ -257,7 +257,53 @@ header{
   }
 }
 .product-container{
-  ul{
+  position: relative;
+  .dropdown{
+    &.open{
+      .dropdown-menu{
+        display: flex;
+      }
+    }
+  }
+  li{
+    padding-right:45px;
+  }
+  .dropdown-menu{
+    &:before{
+      content: "";
+      top: -20px;
+      left: 30px;
+      position: absolute;
+      border: 10px solid;
+      border-color: transparent transparent $main-blue-dark-color transparent;
+    }
+    top: 130%;
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    background: #375f75;
+    a{
+      white-space: pre-wrap;
+      font-weight: 300 !important;
+      color: #fff !important;
+      display: block !important;
+      &:hover, &:focus{
+        background-color: transparent;
+      }
+    }
+    li{
+      justify-content: center;
+      padding: 15px 0;
+      &:hover{
+        background: darken($main-blue-dark-color, 10%);
+      }
+      max-width: 160px;
+      min-width: 140px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .img-links{
     display: flex;
     flex-direction: row;
     justify-content:space-between;

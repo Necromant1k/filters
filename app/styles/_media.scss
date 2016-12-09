@@ -11,6 +11,25 @@
   .phone-number{
     font-size:14px;
   }
+  .product-container{
+    .img-links{
+      flex-direction: row;
+      li{
+        padding-right: 0;
+      }
+      .dropdown{
+        &.open{
+          .dropdown-menu{
+            display: block;
+            li{
+              width: 100%;
+              max-width: none;
+            }
+          }
+        }
+      }
+    }
+  }
   .checkbox-group-square{
     .checkbox-square-item{
       margin-bottom: 10px;
@@ -447,8 +466,19 @@
     margin-top: 0;
   }
   .product-container{
-    ul{
+    .img-links{
       flex-direction: column;
+      .dropdown{
+        &.open{
+          .dropdown-menu{
+            display: block;
+            li{
+              width: 100%;
+              max-width: none;
+            }
+          }
+        }
+      }
     }
   }
 
