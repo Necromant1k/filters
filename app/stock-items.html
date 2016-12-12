@@ -132,7 +132,7 @@
                   <span class="sub-menu-nav-icon">
                     <img src="images/sm-3.png" alt="">
                   </span>
-              <a href="#" class="sub-menu-link">Личный кабинет</a>
+              <a href="personal.html" class="sub-menu-link">Личный кабинет</a>
             </li>
           </ul>
         </div>
@@ -283,73 +283,45 @@
     </div>
   </div>
 </div>
+
 <div class="container">
   <div class="link-tree">
-    <a href="#">Главная</a> > <a href="#">Личный кабинет</a>
+    <a href="#">Главная</a> > <a href="#">Отложенные товары</a>
   </div>
-  <div class="square-corner-header-container">
+  <div class="square-corner-header-container inline-header">
     <h2 class="square-corner-header">
-      Личный кабинет
+      Отложенные товары
     </h2>
+    <ul class="pagination-top">
+      <li class="active">
+        <a href="#"><i class="fa fa-angle-double-left"></i></a>
+      </li>
+      <li>
+        <a href="#">1</a>
+      </li>
+      <li>
+        <a href="#">2</a>
+      </li>
+      <li>
+        <a href="#">3</a>
+      </li>
+      <li>
+        <a href="#">4</a>
+      </li>
+      <li>
+        <a href="#">5</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa fa-angle-double-right"></i></a>
+      </li>
+
+    </ul>
     <div class="bottom-line"></div>
   </div>
 
   <div class="row">
-    <div class="col-md-5">
-      <div class="personal-data">
-        <div class="data-line">
-          <span class="data-label">Логин</span>
-          <span>example</span>
-        </div>
-        <div class="data-line">
-          <span class="data-label">Эл.почта</span>
-          <span>example@example.com</span>
-        </div>
-        <div class="data-line">
-          <span class="data-label">Имя</span>
-          <span>Иван</span>
-        </div>
-        <div class="data-line">
-          <span class="data-label">Фамилия</span>
-          <span>Иванов</span>
-        </div>
-        <div class="personal-data-links">
-          <a href="#"><i class="fa fa-pencil"></i> Редактировать данные</a>
-          <a href="#"><i class="fa fa-lock"></i> Сменить пароль</a>
-          <a href="#"><i class="fa fa-newspaper-o"></i> Подписаться на новости</a>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-md-7">
-      <span class="header-small">Получить информацию о статусе заказа</span>
-      <div class="inn-billing">
-        <form action="" class="billing-inline">
-          <div class="form-group">
-            <label for="inn">Введите ИНН</label>
-            <input type="number" class="form-control" id="inn" placeholder="ИНН">
-          </div>
-          <div class="form-group">
-            <label for="account">Введите № СЧЕТА</label>
-            <input type="number" class="form-control" id="account" placeholder="Номер СЧЕТА">
-          </div>
-          <button type="submit" class="bordered-button"><i class="fa fa-arrow-right"></i> Получить информацию</button>
-        </form>
-        <form action="">
-          <div class="form-group">
-            <label for="status">Информация о статусе</label>
-            <textarea type="text" rows="3" class="form-control" id="status" placeholder="Информация..."></textarea>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <div class="row">
     <div class="col-md-12">
-      <span class="header-small">
-      Отложенные товары
-    </span>
-      <div class="stored-items">
+      <div class="stored-items stored-items-all">
         <div class="stored-item">
           <img src="images/p-3.png" alt="">
           <div class="stored-item-information">
@@ -411,11 +383,8 @@
           </div>
         </div>
       </div>
-      <a href="stock-items.html" class="bordered-button stored-items-button"><i class="fa fa-arrow-right"></i> Посмотреть все отложенные</a>
     </div>
   </div>
-
-
 
 </div>
 
@@ -563,7 +532,7 @@
 <script src="/bower_components/owl.carousel/dist/owl.carousel.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
-
+<script src="scripts/jquery.inputmask.bundle.js"></script>
 <!-- build:js scripts/plugins.js -->
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
