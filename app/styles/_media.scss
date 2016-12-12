@@ -726,3 +726,12 @@
     }
   }
 }
+@media only screen and (max-width: 568px){
+  .av-job-main{
+    flex-direction: column;
+    div{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+  }
+}
