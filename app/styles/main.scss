@@ -1066,6 +1066,33 @@ footer{
     overflow: hidden;
   }
 }
+.article-with-image{
+  img{
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+  }
+  &.reverse-image{
+    img{
+      float: right;
+      margin-right:0;
+      margin-left: 15px;
+    }
+  }
+}
+.room-attestation{
+  margin-bottom: 60px;
+}
+.header-with-date{
+  margin-bottom: 0;
+}
+.header-date{
+  font-size: 18px;
+  color: $main-gray-color;
+
+  display: block;
+  margin-bottom: 35px;
+}
 .stored-item{
   .bordered-button{
     font-size: 16px;

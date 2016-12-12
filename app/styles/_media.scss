@@ -265,6 +265,11 @@
       width: 100%;
     }
   }
+  .article-with-image{
+    img{
+      max-width: 100%;
+    }
+  }
   .get-filter-full-page{}
   .filter-type-selection{
     flex-direction: column;

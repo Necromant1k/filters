@@ -176,10 +176,12 @@ function sticky_relocate() {
   }
 }
 
-$(function() {
-  $(window).scroll(sticky_relocate);
-  sticky_relocate();
-});
+if($("#sticky").length){
+  $(function() {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+  });
+}
 
 var dir = 1;
 var MIN_TOP = 200;
