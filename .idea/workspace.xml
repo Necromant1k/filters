@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315cf27a-3781-48e0-b931-14868446c9ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/company-history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/factory.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/clean-rooms-attestation.html" afterPath="$PROJECT_DIR$/app/clean-rooms-attestation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
     </list>
     <ignored path="filters.iws" />
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company-history.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="company-history.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/company-history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.096541785">
-              <caret line="288" column="61" selection-start-line="288" selection-start-column="61" selection-end-line="288" selection-end-column="61" />
+            <state vertical-scroll-proportion="-0.537037">
+              <caret line="286" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -69,36 +67,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <file leaf-file-name="factory.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/factory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8272727">
-              <caret line="1088" column="21" selection-start-line="1088" selection-start-column="21" selection-end-line="1088" selection-end-column="21" />
-              <folding>
-                <element signature="e#15795#16324#0" expanded="false" />
-                <element signature="e#33260#33502#0" expanded="false" />
-                <element signature="e#33515#33894#0" expanded="false" />
-                <element signature="e#33906#34000#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/personal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.259259">
-              <caret line="419" column="6" selection-start-line="419" selection-start-column="6" selection-end-line="419" selection-end-column="6" />
+            <state vertical-scroll-proportion="-5.6296296">
+              <caret line="321" column="27" selection-start-line="321" selection-start-column="14" selection-end-line="321" selection-end-column="27" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#span#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6896552">
+              <caret line="1089" column="22" selection-start-line="1089" selection-start-column="22" selection-end-line="1089" selection-end-column="22" />
+              <folding>
+                <element signature="e#15795#16324#0" expanded="false" />
+                <element signature="e#33370#33612#0" expanded="false" />
+                <element signature="e#33625#34004#0" expanded="false" />
+                <element signature="e#34016#34110#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -221,10 +217,11 @@
         <option value="$PROJECT_DIR$/app/styles/_media.scss" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/about.html" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/clean-rooms-attestation.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/company-history.html" />
+        <option value="$PROJECT_DIR$/app/factory.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -469,19 +466,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1551" column="12" selection-start-line="1551" selection-start-column="12" selection-end-line="1551" selection-end-column="12" />
-          <folding>
-            <element signature="e#15795#16324#0" expanded="false" />
-            <element signature="e#33260#33502#0" expanded="false" />
-            <element signature="e#33515#33894#0" expanded="false" />
-            <element signature="e#33906#34000#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/_checkbox.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -618,9 +602,9 @@
           <caret line="1406" column="16" selection-start-line="1406" selection-start-column="16" selection-end-line="1406" selection-end-column="16" />
           <folding>
             <element signature="e#15795#16324#0" expanded="false" />
-            <element signature="e#33260#33502#0" expanded="false" />
-            <element signature="e#33515#33894#0" expanded="false" />
-            <element signature="e#33906#34000#0" expanded="false" />
+            <element signature="e#33370#33612#0" expanded="false" />
+            <element signature="e#33625#34004#0" expanded="false" />
+            <element signature="e#34016#34110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,9 +736,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#15795#16324#0" expanded="false" />
-            <element signature="e#33260#33502#0" expanded="false" />
-            <element signature="e#33515#33894#0" expanded="false" />
-            <element signature="e#33906#34000#0" expanded="false" />
+            <element signature="e#33370#33612#0" expanded="false" />
+            <element signature="e#33625#34004#0" expanded="false" />
+            <element signature="e#34016#34110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1061,19 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8272727">
-          <caret line="1088" column="21" selection-start-line="1088" selection-start-column="21" selection-end-line="1088" selection-end-column="21" />
-          <folding>
-            <element signature="e#15795#16324#0" expanded="false" />
-            <element signature="e#33260#33502#0" expanded="false" />
-            <element signature="e#33515#33894#0" expanded="false" />
-            <element signature="e#33906#34000#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/clean-rooms-attestation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.259259">
@@ -1130,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/company-history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.096541785">
-          <caret line="288" column="61" selection-start-line="288" selection-start-column="61" selection-end-line="288" selection-end-column="61" />
+        <state vertical-scroll-proportion="-0.537037">
+          <caret line="286" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1140,6 +1111,35 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/factory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6296296">
+          <caret line="321" column="27" selection-start-line="321" selection-start-column="14" selection-end-line="321" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6896552">
+          <caret line="1089" column="22" selection-start-line="1089" selection-start-column="22" selection-end-line="1089" selection-end-column="22" />
+          <folding>
+            <element signature="e#15795#16324#0" expanded="false" />
+            <element signature="e#33370#33612#0" expanded="false" />
+            <element signature="e#33625#34004#0" expanded="false" />
+            <element signature="e#34016#34110#0" expanded="false" />
           </folding>
         </state>
       </provider>
