@@ -186,3 +186,15 @@ if($("#sticky").length){
 var dir = 1;
 var MIN_TOP = 200;
 var MAX_TOP = 350;
+
+$(".img-links .dropdown").on('click', function (e) {
+  e.preventDefault();
+  $(".product-container").css('margin-bottom', '105px');
+  if($(this).hasClass("open")){
+    $(".product-container").css('margin-bottom', '0px');
+  }else {
+    $(window).click(function() {
+      $(".product-container").css('margin-bottom', '0px');
+    });
+  }
+});

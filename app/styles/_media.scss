@@ -727,6 +727,20 @@
   }
 }
 @media only screen and (max-width: 568px){
+  .filter-start{
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .fixed-filter{
+    width: 100%;
+    text-align: center;
+  }
   .av-job-main{
     flex-direction: column;
     div{

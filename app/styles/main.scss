@@ -258,7 +258,7 @@ header{
 }
 .product-container{
   position: relative;
-  margin-bottom: 105px;
+  transition: all 0.15s linear;
   .dropdown{
     &.open{
       .dropdown-menu{
